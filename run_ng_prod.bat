@@ -1,0 +1,1 @@
+ng build --base-href http://davidmartinezros.com/Angular2/components-animations-project/ --prod --env=prod
