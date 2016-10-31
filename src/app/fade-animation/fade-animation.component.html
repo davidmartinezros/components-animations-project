@@ -3,8 +3,10 @@
   Component: './fade-animation/fade-animation.component'
 </p>
 <p>
-  for example: fadeIn
+  for example: <b>fadeIn</b>
 </p>
-<div>
-  <div class="box" [@fadeIn]="show" (click)="show = !show;"></div>
+<div [@fadeIn]="show" (click)="show = !show;">
+  <span class="text">
+    <h1>Martínez</h1>
+  </span>
 </div>

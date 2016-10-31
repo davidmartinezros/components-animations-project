@@ -3,8 +3,10 @@
   Component: './others-animation/others-animation.component'
 </p>
 <p>
-  for example: flash
+  for example: <b>flash</b>
 </p>
-<div>
-  <div class="box" [@flash]="show" (click)="show = !show;"></div>
+<div [@flash]="show" (click)="show = !show;">
+  <span class="text">
+    <h1>info@davidmartinez.com</h1>
+  </span>
 </div>

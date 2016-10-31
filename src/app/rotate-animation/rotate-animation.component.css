@@ -9,3 +9,10 @@
   will-change: transform;
   cursor: pointer;
 }
+
+.text {
+    width: 250%;
+    text-align: center;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+}

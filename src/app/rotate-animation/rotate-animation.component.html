@@ -3,8 +3,10 @@
   Component: './rotate-animation/rotate-animation.component'
 </p>
 <p>
-  for example: rotateIn
+  for example: <b>rotateIn</b>
 </p>
-<div>
-  <div class="box" [@rotateIn]="show" (click)="show = !show;"></div>
+<div [@rotateIn]="show" (click)="show = !show;">
+  <span class="text">
+    <h1>@davidnezan</h1>
+  </span>
 </div>

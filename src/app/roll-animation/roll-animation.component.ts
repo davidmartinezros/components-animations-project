@@ -9,14 +9,14 @@ import { RootAnimationComponent } from '../root-animation/root-animation.compone
   animations: [
     trigger('rollIn', [
       transition('* => *', [
-        animate(50, style({transform: 'translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)', opacity: '0', offset: 0})), 
-        animate(50, style({transform: 'none', opacity: '1', offset: 1}))
+        animate(450, style({transform: 'translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)', opacity: '0', offset: 0})), 
+        animate(450, style({transform: 'none', opacity: '1', offset: 1}))
       ])
     ]),
     trigger('rollOut', [
       transition('* => *', [
-        animate(50, style({transform: 'none', opacity: '1', offset: 0})), 
-        animate(50, style({transform: 'translate3d(100%, 0, 0) rotate3d(0, 0, 1, -120deg)', opacity: '0', offset: 1}))
+        animate(450, style({transform: 'none', opacity: '1', offset: 0})), 
+        animate(450, style({transform: 'translate3d(100%, 0, 0) rotate3d(0, 0, 1, -120deg)', opacity: '0', offset: 1}))
       ])
     ]),
   ]
